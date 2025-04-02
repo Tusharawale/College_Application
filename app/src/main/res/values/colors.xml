@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General colors -->
+    <color name="background">#ffffff</color> <!-- white -->
+    <color name="foreground">#3e3e3e</color> <!-- dark gray -->
+    <color name="mutedForeground">#666666</color> <!-- light gray -->
+    <color name="cardBackground">#ffffff</color> <!-- white for the card -->
+
+    <!-- Primary and secondary -->
+    <color name="primary2">#2f3640</color> <!-- dark blue -->
+    <color name="primaryForeground">#f0f0f0</color> <!-- off-white -->
+    <color name="secondary">#f4f4f9</color> <!-- light gray -->
+    <color name="secondaryForeground">#1f1f1f</color> <!-- dark gray -->
+
+    <!-- Chart colors -->
+    <color name="chart1">#46a96f</color> <!-- Green -->
+    <color name="chart2">#f29f5e</color> <!-- Orange -->
+    <color name="chart3">#4e85c1</color> <!-- Blue -->
+    <color name="chart4">#e2d564</color> <!-- Yellow -->
+    <color name="chart5">#b14d23</color> <!-- Red -->
+
+
+    <color name="primary">#78b5c1</color>
+    <color name="card_background">#6b6566</color>
+    <color name="gold">#daa520</color>
+    <color name="pink">#ff1493</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2196F3</color>
+    <color name="purple">#9C27B0</color>
+
+</resources>

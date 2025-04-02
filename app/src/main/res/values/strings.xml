@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+
+    <!-- Document Types Array -->
+    <string-array name="document_types">
+        <item>Marksheet</item>
+        <item>Certificate</item>
+        <item>ID Proof</item>
+        <item>Resume</item>
+        <item>Other</item>
+    </string-array>
+</resources>

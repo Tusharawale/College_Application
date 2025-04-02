@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:backgroundTint="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:padding="16dp">
+
+        <!-- PDF Icon -->
+        <ImageView
+            android:id="@+id/pdfIcon"
+            android:layout_width="95dp"
+            android:layout_height="138dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="PDF Icon"
+            android:src="@mipmap/ic_pdf"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Book Info Layout -->
+        <LinearLayout
+            android:id="@+id/bookInfoLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/pdfIcon"
+            android:layout_toStartOf="@id/viewPdfButton"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <!-- Book Name -->
+            <TextView
+                android:id="@+id/bookNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="4dp"
+                android:text="Book Name"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <!-- Author Name -->
+            <TextView
+                android:id="@+id/authorNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Author"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <!-- View PDF Button (Right Bottom) -->
+        <Button
+            android:id="@+id/viewPdfButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/black"
+            android:paddingHorizontal="12dp"
+            android:text="View PDF"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

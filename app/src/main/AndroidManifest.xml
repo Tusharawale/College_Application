@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="COLLEGE_APP"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UnitActivity"/>
+        <activity android:name=".TeacherB"></activity>
+        <activity android:name=".QuizActivity"></activity>
+       <activity android:name=".QuizListStudent"></activity>
+        <activity android:name=".LectureActivity"></activity>
+        <activity android:name=".PyqActivity"></activity>
+         <activity android:name=".TestActivity"></activity>
+        <activity android:name=".AssignmentActivity"></activity>
+        <activity android:name=".SubjectActivity"></activity>
+        <activity android:name=".StudentActivity" ></activity>
+        <activity android:name=".VideoPlayerActivity"></activity>
+        <activity android:name=".SubjectActivityStudent"></activity>
+        <activity android:name=".UnitActivityStudent"></activity>
+        <activity android:name=".ActivityDetailStudent"></activity>
+        <activity android:name=".LectureListStudent"></activity>
+        <activity android:name=".AssignmentListStudent"></activity>
+        <activity android:name=".PyqListStudent"></activity>
+        <activity android:name=".PdfRenderingActivity"></activity>
+        <activity android:name=".LibraryActivity"></activity>
+        <activity android:name=".LibraryStudent"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".NextActivity"></activity>
+        <activity android:name=".StudentInfoActivity"></activity>
+        <activity android:name=".PdfRenderingLibraryActivity"></activity>
+        <activity android:name=".PdfRenderingStudentInfo"></activity>
+        <activity android:name=".TestListStudent"></activity>
+    </application>
+
+</manifest>
