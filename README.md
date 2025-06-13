@@ -4,6 +4,8 @@ This is an Android app for managing college units, quizzes, assignments, videos,
 
 ## Features
 - 🧑‍🏫 Teacher & Student Login
+- 🔑 Teacher DEF ID : admin904 PWD : admin
+- 🔑 Student DEF ID : admin123 PWD : admin
 - 📚 Add/Delete Classes, Subjects, Units
 - 📄 Upload PDFs & Videos
 - 🔐 Role-based Access
