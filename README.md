@@ -15,6 +15,22 @@ This is an Android app for managing college units, quizzes, assignments, videos,
 
 📄 [Click here to view the full Project PDF (Google Drive Preview)](https://drive.google.com/file/d/1-KoGA-IA8-mF6c5W_NqR22Oct1FPa9KR/preview)
 
+## 🚀 Features
+- 🔗 Youtube
+- 🧠 Student Progress Tracker
+- 🗂️ Server Based Storage
+- 🚨 Security
+
+## 🛠 Tech Stack
+- Java
+- Android Studio
+- SQLite
+- XML Layouts
+
+## Structure of the app
+
+⚙️ [Click here to view the full Structure of the app ](https://gitingest.com/Tusharawale/College_Application/tree/main)
+  
 ## Run It
 1. Open in Android Studio
 2. Build & Run on Emulator or Device
